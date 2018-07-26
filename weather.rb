@@ -34,6 +34,7 @@ def  city_weather_info(weather)
   weather[:description]
   weather[:temperature_farenheit]
   puts"The #{weather|key|} is #{weather[:city]}.The #{weather|key|} is #{weather[:description]}.The #{weather|key|} is #{weather[:temperature_farenheit]}."
+end
   
   
 end
